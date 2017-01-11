@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Homemade</string>
+    <string name="app_name">Home Made</string>
+    <string name="capture">Prendre une photo</string>
+    <string name="importer">Importer</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+
 </resources>
