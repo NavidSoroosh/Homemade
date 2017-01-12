@@ -15,36 +15,35 @@
         android:paddingTop="20dp" >
 
         <ImageView
-            android:layout_width="217dp"
-            android:layout_height="246dp"
+            android:layout_width="203dp"
+            android:layout_height="192dp"
             android:src="@drawable/logo2"
             android:id="@+id/imageView" />
     </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right"
-        android:orientation="vertical"
-        android:paddingBottom="30dp"
-        android:paddingRight="97dp"
-        android:paddingTop="20dp"
-        android:weightSum="1">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:onClick="cameraStart"
+        android:background="@drawable/takephotoicon"
+        android:id="@+id/button2" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/capture"
-            android:padding="30dp"
-            android:layout_weight="0.27"
-            android:onClick="cameraStart"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/button"
+        android:background="@drawable/impoticon" />
 
-        <Button
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:text="@string/importer"
-            android:padding="30dp"
-            android:id="@+id/button" />
-    </LinearLayout>
+</LinearLayout>
 
 </LinearLayout>
