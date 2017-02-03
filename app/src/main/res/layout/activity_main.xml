@@ -15,35 +15,39 @@
         android:paddingTop="20dp" >
 
         <ImageView
-            android:layout_width="203dp"
-            android:layout_height="192dp"
-            android:src="@drawable/logo2"
-            android:id="@+id/imageView" />
+        android:layout_width="203dp"
+        android:layout_height="192dp"
+        android:src="@drawable/logo2"
+        android:id="@+id/imageLogo" />
+
+
     </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="1">
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text=""
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="50dp"
-        android:onClick="cameraStart"
-        android:background="@drawable/takephotoicon"
-        android:id="@+id/button2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text=""
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="90dp"
-        android:id="@+id/button"
-        android:background="@drawable/impoticon" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=""
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:onClick="cameraStart"
+            android:background="@drawable/takephotoicon"
+            android:id="@+id/button2" />
 
-</LinearLayout>
+        <Button
+            android:onClick="loadImagefromGallery"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=""
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:id="@+id/importbutton"
+            android:background="@drawable/importicon" />
+
+    </LinearLayout>
 
 </LinearLayout>
