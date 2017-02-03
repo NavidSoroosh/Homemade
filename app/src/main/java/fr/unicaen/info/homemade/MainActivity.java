@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void cameraStart(View v){
         Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
-        startActivityForResult(intent, 0);
+        startActivityForResult(intent, 0);//
     }
 
 
